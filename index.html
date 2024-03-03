@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    
+    .wid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fffffe;
+      color: #594a4e;
+      padding: 10px;
+    }
+
+    
+    .wid .hora {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    
+    .wid .fecha {
+      font-size: 18px;
+    }
+
+    
+    .wid .temperatura {
+      font-size: 18px;
+    }
+
+    
+    .music {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fffffe;
+      padding: 10px;
+    }
+
+    
+    .music .reproductor {
+      width: 300px;
+      height: 50px;
+      border: 1px solid #594a4e;
+    }
+
+    
+    .tit {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #faeee7;
+      padding: 10px;
+    }
+
+    
+    .tit h1 {
+      color: #33272a;
+      font-size: 36px;
+    }
+
+    
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #faeee7;
+      padding: 10px;
+    }
+
+    
+    .intro img {
+      width: 60%;
+      height: auto;
+      margin-right: 7%;
+      margin-bottom: 2%;
+    }
+
+    
+    .intro p {
+      width: 33%;
+      color: #594a4e;
+      font-size: 20px;
+    }
+
+    
+    .fich {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fffffe;
+      padding: 10px;
+    }
+
+   
+    .fich .card {
+      width: 45%;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #faeee7;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+
+    
+    .fich .card img {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      border-radius: 50%;
+      
+      clip-path: polygon(50% 0%,
+          100% 50%,
+          50% 100%,
+          0% 50%);
+      
+    }
+
+    
+    .fich .card p {
+      width: 60%;
+      color: #594a4e;
+      font-size: 18px;
+      margin: 10px;
+    }
+
+    
+    .carru {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #faeee7;
+      padding: 10px;
+    }
+
+    
+    .carru .carousel {
+      width: 80%;
+      height: 400px;
+      border: 1px solid #594a4e;
+    }
+
+    
+    .relle {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fffffe;
+      padding: 10px;
+    }
+
+    
+    .relle img {
+      width: 30%;
+      height: 40%;
+      margin-right: 7%;
+      margin-left: 5%;
+      margin-top: 3%;
+      margin-bottom: 5%;
+      box-shadow: 5px 5px 10px #594a4e;
+      
+    }
+
+    .clos img {
+      width: 70%;
+      height: auto;
+      margin-right: 5%;
+      margin-left: 15%;
+      margin-top: 3%;
+      margin-bottom: 5%;
+      box-shadow: 5px 5px 10px #594a4e;
+      
+    }
+
+    
+    .relle p {
+      width: 53%;
+      color: #594a4e;
+      font-size: 22px;
+    }
+
+    
+    .ing {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #faeee7;
+      padding: 10px;
+    }
+
+    
+    .ing img {
+      width: 100%;
+      height: auto;
+      border-radius: 90px;
+      
+    }
+
+    
+    .coment {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #faeee7;
+      padding: 10px;
+    }
+
+    
+    .coment .comments {
+      width: 80%;
+      height: 800px;
+      border: 1px solid #594a4e;
+    }
+
+    
+    @media screen and (max-width: 600px) {
+
+      
+      .intro img {
+        width: 100%;
+        margin-right: 0;
+      }
+
+      .intro p {
+        width: 100%;
+      }
+
+      
+      .fich .card {
+        width: 100%;
+      }
+
+       Estilos para el div class relle */
+      .relle img {
+        width: 100%;
+        margin-right: 0;
+      }
+
+      .relle p {
+        width: 100%;
+      }
+    }
+  </style>
+  <title>Mis decisiones, Mis consecuencias</title>
+</head>
+
+<body>
+  <!-- Div class wid -->
+  <div class="wid">
+    <div class="hora"><!-- clock widget start -->
+      <script
+        type="text/javascript"> var css_file = document.createElement("link"); css_file.setAttribute("rel", "stylesheet"); css_file.setAttribute("type", "text/css"); css_file.setAttribute("href", "https://s.bookcdn.com//css/cl/bw-cl-120x45.css?v=0.0.1"); document.getElementsByTagName("head")[0].appendChild(css_file); </script>
+      <div id="tw_6_1491895588">
+        <div style="width:130px; height:45px; margin: 0 auto;"><a
+            href="https://hotelmix.es/time/tehuacan-35811">Tehuacán</a><br /></div>
+      </div>
+      <script
+        type="text/javascript"> function setWidgetData_1491895588(data) { if (typeof (data) != 'undefined' && data.results.length > 0) { for (var i = 0; i < data.results.length; ++i) { var objMainBlock = ''; var params = data.results[i]; objMainBlock = document.getElementById('tw_' + params.widget_type + '_' + params.widget_id); if (objMainBlock !== null) objMainBlock.innerHTML = params.html_code; } } } var clock_timer_1491895588 = -1; widgetSrc = "https://widgets.booked.net/time/info?ver=2;domid=582;type=6;id=1491895588;scode=70241;city_id=35811;wlangid=4;mode=1;details=0;background=ffffff;border_color=ffffff;color=333333;add_background=a0a1a1;add_color=08488d;head_color=ffffff;border=0;transparent=0"; var widgetUrl = location.href; widgetSrc += '&ref=' + widgetUrl; var wstrackId = ""; if (wstrackId) { widgetSrc += ';wstrackId=' + wstrackId + ';' } var timeBookedScript = document.createElement("script"); timeBookedScript.setAttribute("type", "text/javascript"); timeBookedScript.src = widgetSrc; document.body.appendChild(timeBookedScript); </script>
+      <!-- clock widget end -->
+    </div>
+    <div class="fecha"><script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-83a005db-c38f-4223-9e8c-7655eb9eecc0" data-elfsight-app-lazy></div></div>
+    <div class="temperatura"> <P>PON MUSICA PARA LEER COMODAMENTE</P>
+      <div id="ww_7f5cf1045cf10" v='1.3' loc='id'
+        a='{"t":"horizontal","lang":"es","sl_lpl":1,"ids":["wl6049"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"#FFFFFF00","cl_font":"#000000","cl_cloud":"#d4d4d4","cl_persp":"#2196F3","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","el_nme":3,"el_phw":3,"el_whr":3}'>
+        Más previsiones: <a href="https://oneweather.org/mexico_city/30_days/" id="ww_7f5cf1045cf10_u"
+          target="_blank">Mexico City 30 days weather forecast</a></div>
+      <script async src="https://app2.weatherwidget.org/js/?id=ww_7f5cf1045cf10"></script>
+    </div>
+  </div>
+
+  <!-- Div class music -->
+  <div class="music">
+    <div class="reproductor">
+      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+      <div class="elfsight-app-910cbcf8-3eb4-43cb-ae60-d688c558c783" data-elfsight-app-lazy></div>
+    </div>
+  </div>
+
+  <!-- Div class tit -->
+  <div class="tit">
+    <h1>Mis decisiones, Mis consecuencias</h1>
+  </div>
+
+  <!-- Div class intro -->
+  <div class="intro">
+    <img src="intro.png" alt="Imagen de introducción" />
+    <p>
+      Nuestras acciones tienen consecuencias, tanto buenas como malas. Es de
+      las reglas más básicas de la vida, muy fácil de entender en realidad.
+      Para toda acción hay una reacción (tercera ley de newton). Sin embargo
+      muchas veces el ser humano desea modificar este principio a su gusto y
+      antojo.
+    </p>
+  </div>
+
+  <!-- Div class fich -->
+  <div class="fich">
+    <div class="card">
+      <img src="ficha1.png" alt="Imagen de la ficha 1" />
+      <p>
+        La acciones y decisiones tienen diferentes resultados buenos o malos y
+        de dependiendo de la accion si haces algo bueno es de esperar algo
+        bueno
+      </p>
+    </div>
+    <div class="card">
+      <img src="ficha2.png" alt="Imagen de la ficha 2" />
+      <p>
+        mientras que si se hace algo malo el resultado es malo, todo va
+        acuerdo a las deciciones de cada persona y solo tu puedes decidir eso.
+      </p>
+    </div>
+    <div class="card">
+      <img src="ficha3.png" alt="Imagen de la ficha 3" />
+      <p>
+        Por ejemplo al decidir no hacer la tarea, estaria tomando una decicion
+        mala que afectara en mi calificacion y mi aprendizaje
+      </p>
+    </div>
+    <div class="card">
+      <img src="ficha4.png" alt="Imagen de la ficha 4" />
+      <p>
+        mientas que si decido estudiar mas, causara que tenga mayores
+        conocimientos y habilidades que si no estudiara
+      </p>
+    </div>
+  </div>
+
+  <!-- Div class carru -->
+  <div class="carru">
+    <div class="carousel"><script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-97196b81-97e7-46ad-a90a-92da2f420d48" data-elfsight-app-lazy></div></div>
+  </div>
+
+  <!-- Div class relle -->
+  <div class="relle">
+    <img src="relle.png" alt="Imagen de relleno" />
+    <p>
+      "Las decisiones que tomamos a lo largo de nuestra vida moldean nuestro
+      destino. Cada elección, ya sea grande o pequeña, lleva consigo sus
+      propias consecuencias. Es crucial reflexionar sobre nuestras acciones y
+      considerar cómo afectarán no solo a nosotros mismos, sino también a
+      quienes nos rodean. A través de la toma de decisiones consciente y
+      responsable, podemos construir un camino hacia el éxito y la realización
+      personal, enfrentando las consecuencias con valentía y aprendiendo de
+      cada experiencia."
+    </p>
+  </div>
+
+  <!-- Div class ing -->
+  <div class="ing">
+    <img src="ing.png" alt="Imagen de ingreso" />
+  </div>
+
+  <!-- Div class coment -->
+  <div class="coment"> 
+    <div class="comments"><script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-bdc95d01-5e5b-42c9-89de-6113a7da9c54" data-elfsight-app-lazy></div></div>
+  </div>
+  <!-- Div class relle -->
+  <div class="clos">
+    <img src="clos.png" alt="Imagen de relleno" style="border-radius: 50%;" />
+    </p>
+  </div>
+</body>
+
+</html>
